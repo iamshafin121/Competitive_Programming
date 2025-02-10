@@ -21,27 +21,37 @@ using namespace std;
 #define fst ios::sync_with_stdio(false);cin.tie(0);
 
 bool cmp(vll x, vll y){
+    ll x_sum = 0, y_sum = 0;
     for(ll i=0; i<x.size(); i++){
-        if(x[i] < y[i]) return false;
+        x_sum += x[i];
+        y_sum += y[i];
     }
-    return true;
+    return x_sum >= y_sum;
 }
 
 void solve(){
     ll n,m; cin >> n >> m;
-    vc<vll> a(n,vll(m,0));
-    for(ll i=0; i<n; i++) cinv(a[i]);
-    sort(a.begin(),a.end(),cmp);
+    vc<vll> a(n,vll(m));
+    vc<pair<ll,ll>> all_sum(n);
+    for(ll i=0; i<n; i++){
+        cinv(a[i]);
+        ll sum = 0;
+        for(auto x: a[i]){
+            sum += x;
+        }
+        all_sum[i] = {sum,i};
+    }
+    rsrt(all_sum);
 
     ll total = 0;
     ll count = 0;
-    for(ll i=0; i<n; i++){
-        for(ll j=0; j<m; j++){
-           count += a[i][j];
-           total += count;
+
+    for(auto pr : all_sum){
+        for(auto ele : a[pr.second]){
+            count += ele;
+            total += count;
         }
     }
-
     cout << total << endl;
     
 }
