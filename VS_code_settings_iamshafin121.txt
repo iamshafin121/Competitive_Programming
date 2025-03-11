@@ -1,0 +1,310 @@
+_____CPP snippet_____ :
+
+// {
+//     // Place your snippets for cpp here. Each snippet is defined under a snippet name and has a prefix, body and 
+//     // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+//     // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+//     // same ids are connected.
+//     // Example:
+//     // "Print to console": {
+//     //  "prefix": "log",
+//     //  "body": [
+//     //      "console.log('$1');",
+//     //      "$2"
+//     //  ],
+//     //  "description": "Log output to console"
+//     // }
+    
+//     "cpp snippets":
+//     {
+//         "prefix" : "cpp boilerplate",
+//                    "body" : [
+//                        "#include<bits/stdc++.h>",
+//                        "using namespace std;",
+//                         "#define ll long long int",
+//                         "#define ld long double",
+//                         "#define pb push_back",
+//                         "#define vc vector",
+//                         "#define vi vc<int>",
+//                         "#define vll vc<ll>",
+//                         "#define endl '\\n'",
+//                         "#define yes cout << \"YES\" << '\\n';",
+//                         "#define no cout << \"NO\" << '\\n';",
+//                         "#define srt(x) sort(x.begin(),x.end())",
+//                         "#define rsrt(x) sort(x.rbegin(),x.rend())",
+//                         "#define rvs(v) reverse(v.begin(),v.end())",
+//                         "#define tst ll t; cin >> t; while(t--)",
+//                         "#define M 1000000007",
+//                         "#define gcd(a,b) __gcd(a,b)",
+//                         "#define lcm(a,b) (a*b)/gcd(a,b)",
+//                         "#define coutv(v) for(auto it:v) cout << it << ' '; cout << endl;",
+//                         "#define cinv(v) for(auto &it:v) cin >> it;",
+//                         "#define fst ios::sync_with_stdio(false);cin.tie(0);",
+//                         "\n",
+//                        "/*",
+//                         "       _______ ___  ___ ____   ______ _______ __   ___",
+//                         "      /  ____//  / /  // _  | / ____//_  ___//  | /  /",
+//                         "     (___   )/  /_/  // /_| |/ /___   / /   /   |/  /",
+//                         "    ____/  //  __   // ___  / ____/__/ /__ /  | |  /",
+//                         "   /______//__/ /__//_/  |_/_/   /_______//__/| __/",
+//                         "                                                  ",
+//                        "*/",
+//                        "\n",
+//                        "\n",
+//                        "void solve(){",
+//                         "\tll n; cin >> n;",
+//                         "\tvll a(n); cinv(a);",
+//                         "\t$0",
+//                         "}",
+//                         "\n",
+//                        "int main(){",
+//                        "\t",
+//                        "\tfst\n\ttst$1\n\tsolve();",
+//                        "\t",
+//                        "    return 0;",
+//                        "}"
+
+//                    ],
+//                     "description" : "to produce the main snippet for cpp"
+//     },
+
+//     "ccsnippets":{
+//         "prefix" : "ccc boilerplate",
+//                     "body" : [
+//                         "#include<iostream>",
+//                         "using namespace std;",
+//                         "int main()",
+//                         "{",
+//                         "   ios_base::sync_with_stdio(false);",
+//                         "\t$0",
+//                         "   return 0;",
+//                         "}"
+//                     ],
+//                     "description" : "snippet for competetive coding"
+//     }
+
+// }
+
+
+
+
+
+
+
+
+
+
+{
+    // Place your snippets for cpp here. Each snippet is defined under a snippet name and has a prefix, body and 
+    // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+    // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+    // same ids are connected.
+    // Example:
+    // "Print to console": {
+    //  "prefix": "log",
+    //  "body": [
+    //      "console.log('$1');",
+    //      "$2"
+    //  ],
+    //  "description": "Log output to console"
+    // }
+    
+    "cpp snippets":
+    {
+        "prefix" : "cpp boilerplate",
+                   "body" : [
+                       "#include<bits/stdc++.h>",
+                       "using namespace std;",
+                       "#define ll long long int",
+                       "\n",
+                       "/*",
+                        "       _______ ___  ___ ____   ______ _______ __   ___",
+                        "      /  ____//  / /  // _  | / ____//_  ___//  | /  /",
+                        "     (___   )/  /_/  // /_| |/ /___   / /   /   |/  /",
+                        "    ____/  //  __   // ___  / ____/__/ /__ /  | |  /",
+                        "   /______//__/ /__//_/  |_/_/   /_______//__/| __/",
+                        "                                                  ",
+                       "*/",
+                       "\n",
+                       "int main(){\n",
+                       "    ios_base::sync_with_stdio(false);",
+					   "    // cin.tie(NULL);",
+					   "    cout.tie(NULL);",
+                       "\t",
+                       "    $0",
+                       "\t",
+                       "    return 0;",
+                       "}"
+
+                   ],
+                    "description" : "to produce the main snippet for cpp"
+    },
+
+    "ccsnippets":{
+        "prefix" : "ccc boilerplate",
+                    "body" : [
+                        "#include<iostream>",
+                        "using namespace std;",
+                        "int main()",
+                        "{",
+                        "   ios_base::sync_with_stdio(false);",
+                        "\t$0",
+                        "   return 0;",
+                        "}"
+                    ],
+                    "description" : "snippet for competetive coding"
+    }
+}
+
+
+
+
+
+
+
+_____User Settings_____ :
+
+
+
+{
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveFileBeforeRun": true,
+    "editor.mouseWheelZoom": true,
+    "code-runner.executorMap": {
+
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "zig": "zig run",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "python3 -u",
+        "perl": "perl",
+        "perl6": "perl6",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "scheme": "csi -script",
+        "ahk": "autohotkey",
+        "autoit": "autoit3",
+        "dart": "dart",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "haskell": "runghc",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+        "lisp": "sbcl --script",
+        "kit": "kitc --run",
+        "v": "v run",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "sml": "cd $dir && sml $fileName",
+        "mojo": "mojo run",
+        "erlang": "escript",
+        "spwn": "spwn build",
+        "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
+        "gleam": "gleam run -m $fileNameWithoutExt"
+    },
+    "workbench.colorTheme": "SynthWave '84",
+    "files.autoSave": "afterDelay",
+    "livePreview.hostIP": "192.168.0.111",
+    "workbench.iconTheme": "vscode-icons",
+    "git.autofetch": true
+}
+
+
+_____Keybord Shortcuts_____ :
+
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+;",
+        "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-code-runner.run"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "welcome.showNewFileEntries"
+    },
+    {
+        "key": "ctrl+alt+win+n",
+        "command": "-welcome.showNewFileEntries"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "workbench.action.closePanel"
+    },
+    {
+        "key": "ctrl+f4",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "workbench.files.action.createFolderFromExplorer"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "workbench.action.newWindow"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "-workbench.action.newWindow"
+    },
+    {
+        "key": "shift+up",
+        "command": "-cursorColumnSelectUp",
+        "when": "editorColumnSelection && textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "cursorColumnSelectUp"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "-editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    }
+]
